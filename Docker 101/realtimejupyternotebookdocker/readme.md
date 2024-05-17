@@ -1,7 +1,7 @@
 <h3 align="center">How to install Tensorflow on Docker With GPU Compatible Real Time Collaboration</h3>
 <p align="center">
     <a href="" target="_blank">
-        <img width="100%" src="/Docker 101/Docker 101/img/BadgeDockerRealtimeJupyter.png" alt="Banner">
+        <img width="100%" src="/Docker 101/assets/BadgeDockerRealtimeJupyter.png" alt="Banner">
     </a>
 </p>
 
@@ -10,20 +10,32 @@
   This repository contains step how to build Tensorflow on Docker with GPU compitable with Jupyter hub and Jupyter Collaboration Remote to work Together. 
 </p>
 
+### ⚡️ Quick start
+First, download and install Docker Desktop. Version 26.0.0 or higher is required.
+```sh
+Note! Enable/Check WSL 
+```
+Install Nvidia Driver 550.54.14 on Windows Host
+
+enable WSL on Windows Machine
+
+all link of Downloads or instruction in the Official Website [Official Website](#iii-official-website) or follow my instruction below to see the instruction [Installation](#i-installation-)
+
 ### Contents:
 - [Categories](#categories)
     - [I. Installation 🚀](#i-installation-)
-    - [II. Common Error That I found ✨](#ii-common-error-that-i-found-)
+    - [II. Common Error That I found 📝](#ii-common-error-that-i-found-)
+    - [III. Official Website](#iii-official-website)
 - [Tools](#tools)
 - [Articles](#articles)
 - [Video Tutorials](#tutorials)
 - [Contribute](#contribute)
-- [License](#license)
+- [Contact](#contact)
 
 ## Categories
 
 #### I. Installation 🚀
-1. Powershell install WSL (with Run Administrator)
+1. Open PowerShell as Administrator
    ```sh
     wsl --install
    ```
@@ -144,7 +156,7 @@
                     count: 1
                     capabilities: [gpu]
     ```
-10. Make Directory '/mnt/project'
+10. Make Directory at '/mnt/project'
     ```sh
     sudo mkdir dataset
     ```
@@ -157,7 +169,7 @@ docker-compose up
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### II. Common Error That I found ✨
+#### II. Common Error That I found 📝
 
 ##### 1. During docker-compose up Warning 'docker-compose' could not be found
 
@@ -177,13 +189,22 @@ https://docs.docker.com/go/wsl2/
   ```
 
 
-https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
 
+
+
+#### III. Official Website
+https://www.docker.com/products/docker-desktop/
+https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
 https://www.nvidia.com/download/index.aspx
 
+https://learn.microsoft.com/en-us/windows/wsl/install
+## Contact
 
-
-## Special Thanks 🙇
-- [Zetao Zhuang](https://github.com/zzetao) for making the amazing site for this repo!
+## Buy Me a Coffe 🙇
+* [![ETH][ETH]][ETH-url] BEP20 0x74d7ae669da2a05875f8036e3a3fefdf1f657e04
 
 [🔼 Back to top](#How-to-install-Tensorflow-on-Docker-With-GPU-Compatible-Real-Time-Collaboration)
+
+
+[ETH]: https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white
+[ETH-url]: https://binance.com/
