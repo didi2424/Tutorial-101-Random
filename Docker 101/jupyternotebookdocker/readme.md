@@ -24,11 +24,10 @@ all link of Downloads or instruction in the Official Website [Official Website](
 ### Contents:
 - [Categories](#categories)
     - [I. Installation 🚀](#i-installation-)
-    - [II. Usage 🧪](#ii-Usage-)
+    - [II. Usage 🧪](#ii-usage-)
     - [III. Common Error That I found 📝](#iii-common-error-that-i-found-)
     - [IV. Official Website](#iv-official-website)
-- [Contact](#contact)
-- [Contact](#contact)
+- [Contact](#contact-)
 
 ## Categories
  
@@ -42,9 +41,9 @@ all link of Downloads or instruction in the Official Website [Official Website](
 
 3. Install Docker Desktop Configuration Check WSL2
 
-4. You need install Visual Studio Code Extension (WSL from Extension Market Place)
+4. Open VS Code You need install Visual Studio Code Extension (WSL from Extension Market Place)
 
-5. Open VS Code and open Terminal in VS code
+5. open Terminal in VS code
 6. Make Shared Folder (Because Ubuntu WSL is Virtual we need save our file into harddrive windows)
 
     ```sh
@@ -67,17 +66,23 @@ all link of Downloads or instruction in the Official Website [Official Website](
     ```sh
     cd '/Tutorial-101-Random/Docker 101/jupyternotebookdocker'
     ```
+10. Build
+     ```sh
+    docker compose up
+    ```
+
     
 #### II. Usage 🧪
 
-1. Clone this repo 
-    ```sh
-    Docker Compose Up
-    ```
+1. Open Docker Desktop in the Container Press Play Button
+![](/Docker%20101/assets/dockerdesktopplay%20(1).gif)
+
+2. Open Your Browser localhost:8000
+![](/Docker%20101/assets/dockerdesktopplay%20(2).gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### II. Common Error That I found 📝
+#### III. Common Error That I found 📝
 
 ##### 1. During docker-compose up Warning 'docker-compose' could not be found
 
@@ -100,7 +105,7 @@ https://docs.docker.com/go/wsl2/
 
 
 
-#### III. Official Website
+#### IV. Official Website
 https://www.docker.com/products/docker-desktop/
 
 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
