@@ -75,9 +75,11 @@ all link of Downloads or instruction in the Official Website [Official Website](
 #### II. Usage 🧪
 
 1. Open Docker Desktop in the Container Press Play Button
+
 ![](/Docker%20101/assets/dockerdesktopplay%20(1).gif)
 
 2. Open Your Browser localhost:8000
+
 ![](/Docker%20101/assets/dockerdesktopplay%20(2).gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
