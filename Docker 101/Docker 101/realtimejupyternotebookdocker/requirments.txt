@@ -1,0 +1,5 @@
+jupyter
+notebook
+jupyterhub
+jupyter-collaboration
+tensorflow==2.16.1

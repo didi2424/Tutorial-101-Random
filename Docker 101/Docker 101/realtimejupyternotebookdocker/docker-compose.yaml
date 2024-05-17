@@ -1,0 +1,15 @@
+version: '1.0'
+services:
+    cudaimage:
+      build: .
+      ports:
+        - '8000:8000'
+      volumes:
+        - ./dataset:/dataset
+      deploy:
+          resources:
+            reservations:
+              devices:
+                - driver: nvidia
+                  count: 1
+                  capabilities: [gpu]
