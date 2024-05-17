@@ -78,7 +78,10 @@ all link of Downloads or instruction in the Official Website [Official Website](
 
 ![](/Docker%20101/assets/dockerdesktopplay%20(1).gif)
 
+
+
 2. Open Your Browser localhost:8000
+username user1 password 00000000
 
 ![](/Docker%20101/assets/dockerdesktopplay%20(2).gif)
 
